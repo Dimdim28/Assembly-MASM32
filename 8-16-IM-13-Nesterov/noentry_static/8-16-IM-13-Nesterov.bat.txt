@@ -1,0 +1,7 @@
+\masm32\bin\ml /c /coff "8-16-IM-13-Nesterov-Library.asm"
+\masm32\bin\Link.exe /out:"8-16-IM-13-Nesterov-Library.dll" /def:"8-16-IM-13-Nesterov.def" /dll /noentry "8-16-IM-13-Nesterov-Library.obj"
+
+\masm32\bin\ml /c /coff "8-16-IM-13-Nesterov.asm"
+\masm32\bin\Link.exe /subsystem:windows "8-16-IM-13-Nesterov.obj"
+
+8-16-IM-13-Nesterov.exe
