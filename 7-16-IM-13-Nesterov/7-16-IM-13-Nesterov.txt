@@ -1,0 +1,4 @@
+ml /c /coff "7-16-IM-13-Nesterov.asm"
+ml /c /coff "7-16-IM-13-Nesterov-module.asm"
+link /subsystem:WINDOWS "7-16-IM-13-Nesterov.obj" "7-16-IM-13-Nesterov-module.obj"
+7-16-IM-13-Nesterov.exe
